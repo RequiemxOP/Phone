@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCACF4B0"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="589dp"
+        android:text="Call Save Application"
+        android:textSize="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="535dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="526dp"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="253dp"
+        android:layout_marginEnd="304dp"
+        android:layout_marginBottom="430dp"
+        android:onClick="inputNumber"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="433dp"
+        android:onClick="inputNumber"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="274dp"
+        android:layout_marginTop="253dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="430dp"
+        android:onClick="inputNumber"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd="305dp"
+        android:layout_marginBottom="338dp"
+        android:onClick="inputNumber"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="185dp"
+        android:layout_marginBottom="335dp"
+        android:onClick="inputNumber"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="346dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="337dp"
+        android:onClick="inputNumber"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="423dp"
+        android:layout_marginEnd="308dp"
+        android:layout_marginBottom="260dp"
+        android:onClick="inputNumber"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="431dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="252dp"
+        android:onClick="inputNumber"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="283dp"
+        android:layout_marginTop="434dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="249dp"
+        android:onClick="inputNumber"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="514dp"
+        android:layout_marginEnd="303dp"
+        android:layout_marginBottom="169dp"
+        android:onClick="inputNumber"
+        android:text="#" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="515dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="168dp"
+        android:onClick="inputNumber"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="274dp"
+        android:layout_marginTop="522dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="161dp"
+        android:onClick="inputNumber"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="274dp"
+        android:layout_marginTop="522dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="161dp"
+        android:onClick="inputNumber"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="274dp"
+        android:layout_marginTop="522dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="161dp"
+        android:onClick="inputNumber"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/callBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="607dp"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="72dp"
+        android:text="Call" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="602dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="74dp"
+        android:text="Save" />
+</RelativeLayout>
+
